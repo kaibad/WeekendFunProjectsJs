@@ -1,0 +1,27 @@
+.canvas {
+  text-align: center;
+}
+.canvas h1,
+.canvas h2 {
+  margin: 25px 0;
+}
+.button {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+#grey {
+  background-color: grey;
+}
+#yellow {
+  background-color: yellow;
+}
+#blue {
+  background-color: blue;
+}
+#white {
+  background-color: white;
+}
+#purple {
+  background-color: purple;
+}

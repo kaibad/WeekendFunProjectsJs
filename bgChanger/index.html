@@ -8,16 +8,37 @@
     <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
-    <nav>
-      <a href="/">Home</a>
-    </nav>
+    <header>
+      <nav
+        style="
+          background-color: #e00;
+          padding: 15px 50px;
+          text-align: right;
+          font-size: 20px;
+        "
+      >
+        <a
+          href="/"
+          style="
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #000;
+          "
+          >Home</a
+        >
+      </nav>
+    </header>
+
     <div class="canvas">
       <h1>BG CHANGER</h1>
       <span class="button" id="grey"></span>
       <span class="button" id="white"></span>
       <span class="button" id="blue"></span>
       <span class="button" id="yellow"></span>
-      <h2>Click to change background</h2>
+      <span class="button" id="purple"></span>
+      <h2 class="mt-5">Click to change background</h2>
     </div>
     <script src="bgChanger.js"></script>
   </body>
