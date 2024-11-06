@@ -6,7 +6,7 @@ Welcome to the QR Generator project! This is a fun and simple application where 
 
 You can view the live demo of the project here:
 
-[Weekend Fun Projects QR Generator](https://weekendfunprojectsjs.netlify.app/)
+[View Demo](https://weekendfunprojectsjs.netlify.app/)
 
 ## Features
 
