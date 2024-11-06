@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "digital";
+  src: url(../Fonts/digital-7.ttf);
+}
+body {
+  background-color: #181c14;
+  color: #fff;
+  font-family: "Lora", serif;
+}
+.clock-container {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#clock {
+  font-size: 70px;
+  background-color: #ecdfcc;
+  color: #181c14;
+  padding: 20px;
+  border-radius: 10px;
+  height: 350px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-family: "digital";
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#clock::before {
+  content: "";
+  position: absolute;
+  width: 105%;
+  height: 105%;
+  border-radius: 10px;
+  background-color: var(--tertiary-color);
+  opacity: 1;
+  z-index: -1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#clock::after {
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  border-radius: 10px;
+  background-color: var(--quaternary-color);
+  opacity: 1;
+  z-index: -2;
+}
