@@ -11,6 +11,10 @@
   --tertiary-color: #697565;
   --quaternary-color: #ecdfcc;
 }
+body {
+  background-color: var(--primary-color);
+  color: var(--quaternary-color);
+}
 
 header {
   background-color: #697565;
@@ -25,5 +29,9 @@ header nav a {
   color: #3c3d37;
   border-radius: 10px;
   padding: 8px 25px;
-  background-color: #ecdfcc;
+  background-color: var(--quaternary-color);
+}
+
+.project-link {
+  margin: 15px 0;
 }

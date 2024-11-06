@@ -1,0 +1,39 @@
+#newGame,
+.guessSubmit {
+  background-color: var(--quaternary-color);
+  padding: 8px 25px;
+  font-style: 20px;
+  border-radius: 10px;
+  display: block;
+  margin: 15px 0;
+}
+.guess-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.guess-container .guess-form {
+  background-color: var(--secondary-color);
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 10px;
+}
+.guess-container .guess-form form label {
+  display: block;
+  margin-bottom: 1.45rem;
+  font-size: 20px;
+}
+.guess-container .guess-form form input[type="text"] {
+  display: inline-block;
+  width: 100%;
+  color: var(--primary-color);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border: none;
+}
+.guess-container .guess-form form input[type="submit"],
+#newGame {
+  display: inline-block;
+}
