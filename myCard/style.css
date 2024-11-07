@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Instrument Sans", sans-serif;
+  transition: all linear 0.3s;
+}
+.social-media-card {
+  background-color: #000;
+}
+#card-image {
+  display: inline-block;
+  position: relative;
+}
+#card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#card-image i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  font-size: 90px;
+  color: #ff3040;
+  opacity: 0;
+  transition: transform ease 0.8s, opacity linear 0.8s;
+  cursor: pointer;
+}
+.social-media-card-right {
+  padding: 35px;
+}
+.social-card-information-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-card-information-top h1 {
+  font-size: 22px;
+}
+
+.social-card-information-top-buttons button {
+  background-color: rgba(54, 54, 54, 1);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  margin-left: 15px;
+  transition: all linear 0.3s;
+}
+.social-card-information-top-buttons button:hover {
+  background-color: rgba(100, 100, 100, 1);
+}
+#friendicon {
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.number-of-following {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 1.5rem 0;
+}
+.number-of-following li span {
+  font-weight: 800;
+  margin-right: 8px;
+}
+.social-media-card-left-content {
+  padding: 30px 20px;
+}
+.like-comment-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+.like-comment-container span {
+  font-size: 22px;
+}
+
+.like-comment-container span.like {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.like-comment-container span.like p {
+  font-size: 14px;
+}
